@@ -8,7 +8,7 @@ public class MathCalculator {
                 + division(first, second);
     }
 
-        public static double sumFour(double first, double second) {
+    public static double sumFour(double first, double second) {
         return sum(first, second)
                 + multiply(first, second)
                 + minus(first, second)
@@ -16,9 +16,15 @@ public class MathCalculator {
 
     }
 
+    public static double sumAndMultiply(double first, double second) {
+        return sum(first, second)
+                + multiply(first, second);
+    }
+
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumTwo(10, 20));
         System.out.println("Результат расчета равен: " + sumFour(10, 20));
+        System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
     }
 }
 
