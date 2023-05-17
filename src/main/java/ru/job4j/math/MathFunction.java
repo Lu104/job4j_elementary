@@ -18,9 +18,5 @@ public class MathFunction {
         return first / second;
     }
 
-    public static double sumAndMultiply(double first, double second) {
-        return sum(first, second)
-                + multiply(first, second);
-    }
 }
 
