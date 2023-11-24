@@ -11,10 +11,9 @@ public class Board {
                 }
             }
 
-                /* добавляем перевод на новую строку. */
-                System.out.println();
-            }
+            System.out.println();
         }
+    }
 
     public static void main(String[] args) {
         paint(3, 3);
